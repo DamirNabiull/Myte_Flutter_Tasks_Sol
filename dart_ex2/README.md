@@ -1,0 +1,1 @@
+Solution for 2-nd ex.
