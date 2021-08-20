@@ -1,8 +1,12 @@
 import 'dart:io';
 
 void main() {
-  var s = stdin.readLineSync();
-  var n = int.tryParse(s!);
-  var ans = n == null ? 'Это не число' : n;
-  print(ans);
+  String? s;
+  var n, ans;
+  while (true) {
+    s = stdin.readLineSync();
+    n = int.tryParse(s!);
+    ans = n == null ? 'Это не число' : n;
+    print(ans);
+  }
 }
